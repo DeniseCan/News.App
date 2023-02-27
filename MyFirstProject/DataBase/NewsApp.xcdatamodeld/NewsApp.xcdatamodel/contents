@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17192" systemVersion="19F101" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="FavoriteNews" representedClassName="FavoriteNews" syncable="YES" codeGenerationType="class">
+        <attribute name="isPressed" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="newsDate" optional="YES" attributeType="String"/>
+        <attribute name="newsHeadline" optional="YES" attributeType="String"/>
+        <attribute name="newsImage" optional="YES" attributeType="String"/>
+        <attribute name="newsIndexInArray" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="newsText" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES" codeGenerationType="class">
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="password" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="FavoriteNews" positionX="45.89453125" positionY="-15.01171875" width="128" height="133"/>
+        <element name="User" positionX="-185.09765625" positionY="-10.01171875" width="115.2265625" height="118"/>
+    </elements>
+</model>
